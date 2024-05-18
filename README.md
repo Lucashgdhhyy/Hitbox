@@ -1,3 +1,4 @@
+print("running")
 local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AArrayfield%20Library"))()
 local Window = ArrayField:CreateWindow({
    Name = "Kapi V1",
@@ -24,7 +25,7 @@ local Window = ArrayField:CreateWindow({
       Actions = {
             [1] = {
                 Text = 'Click here to copy key system',
-                OnPress = function()      setclipboard("https://work.ink/1Ujy/lw6w6m2x") --This Will Copy The Link Of The Key
+                OnPress = function()      setclipboard("https://sites.google.com/view/keysystemkapi/início") --This Will Copy The Link Of The Key
                     print('Pressed')
                 end,
                 }
